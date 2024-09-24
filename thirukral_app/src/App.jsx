@@ -5,13 +5,10 @@ function App() {
 
   const [data, setData] = useState([])
   const [next, setnext] = useState(0)
-  // const [change, setChange] = useState(true)
 
   useEffect(()=>{
     axios.get("https://raw.githubusercontent.com/tk120404/thirukkural/master/thirukkural.json")
     .then(data=>setData(data.data.kural[next]))
-
-    // let random = Math.floor(Math.random() * 1334)
     
   },[next])
 console.log(data);
