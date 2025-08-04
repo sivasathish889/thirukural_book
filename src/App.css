@@ -1,0 +1,47 @@
+.body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.number{
+  display: flex;
+  justify-content: end;
+  padding: 10px;
+}
+.sec{
+  border: 1px solid;
+  margin-bottom: 10px;
+  padding: 0 10px 5px 20px;
+  border-radius: 10px;
+}
+.kural{
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  padding: 20px;
+  backdrop-filter: blur(2px);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.head{
+  text-align: center;
+  text-decoration: underline;
+  margin: 10px 0 10px 0;
+  font-weight: 600;
+
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+button{
+  width: 100px;
+  align-items: center;
+  background-color: violet;
+  padding: 7px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
